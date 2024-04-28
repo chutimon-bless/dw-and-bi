@@ -8,6 +8,9 @@ This project aims to extract data from github events JSON files and load into th
 ### establish docker configurations via docker-compose.yml file
 docker-compose up
 
+### install essential library
+pip install psycopg2
+
 ### create tables (actors, repo, events)
 python create_tables.py
 
