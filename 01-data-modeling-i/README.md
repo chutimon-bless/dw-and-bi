@@ -1,4 +1,9 @@
-# Instruction
+## Project description
+This project aims to extract data from github events JSON files and load into the created tables. The data model is as shown below :
+
+![alt text](Untitled.png)
+
+## Instruction
 
 ### establish docker configurations via docker-compose.yml file
 docker-compose up
