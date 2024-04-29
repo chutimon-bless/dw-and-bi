@@ -7,8 +7,10 @@ This project aims to extract data from github events JSON files and load into a 
 docker-compose up
 
 ### create a virtual environment for installing packages with versions pinned in requirements.txt
-python -m venv ENV  
+python -m venv ENV
+
 source ENV/bin/activate  
+
 pip install -r requirements.txt
 
 ### create keyspaces and ETL
