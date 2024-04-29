@@ -73,6 +73,7 @@ def process(session, filepath):
                 print(each["id"], each["type"], each["actor"]["login"])
 
                 # Insert data into tables here
+                
 
 
 def insert_sample_data(session):
