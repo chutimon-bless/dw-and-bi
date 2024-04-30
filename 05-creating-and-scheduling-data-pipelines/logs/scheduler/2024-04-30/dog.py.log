@@ -1312,3 +1312,24 @@ IndentationError: expected an indented block after 'with' statement on line 20
 [2024-04-30T10:56:06.395+0000] {logging_mixin.py:188} INFO - [2024-04-30T10:56:06.395+0000] {dag.py:3096} INFO - Sync 1 DAGs
 [2024-04-30T10:56:06.413+0000] {logging_mixin.py:188} INFO - [2024-04-30T10:56:06.413+0000] {dag.py:3954} INFO - Setting next_dagrun for dog to 2024-04-30 00:00:00+00:00, run_after=2024-05-01 00:00:00+00:00
 [2024-04-30T10:56:06.433+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dog.py took 0.067 seconds
+[2024-04-30T10:56:37.155+0000] {processor.py:161} INFO - Started process (PID=41561) to work on /opt/airflow/dags/dog.py
+[2024-04-30T10:56:37.156+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dog.py for tasks to queue
+[2024-04-30T10:56:37.156+0000] {logging_mixin.py:188} INFO - [2024-04-30T10:56:37.156+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dog.py
+[2024-04-30T10:56:37.162+0000] {processor.py:840} INFO - DAG(s) 'dog' retrieved from /opt/airflow/dags/dog.py
+[2024-04-30T10:56:37.179+0000] {logging_mixin.py:188} INFO - [2024-04-30T10:56:37.179+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-30T10:56:37.198+0000] {logging_mixin.py:188} INFO - [2024-04-30T10:56:37.198+0000] {dag.py:3954} INFO - Setting next_dagrun for dog to 2024-04-30 00:00:00+00:00, run_after=2024-05-01 00:00:00+00:00
+[2024-04-30T10:56:37.219+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dog.py took 0.069 seconds
+[2024-04-30T10:57:07.986+0000] {processor.py:161} INFO - Started process (PID=41839) to work on /opt/airflow/dags/dog.py
+[2024-04-30T10:57:07.986+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dog.py for tasks to queue
+[2024-04-30T10:57:07.987+0000] {logging_mixin.py:188} INFO - [2024-04-30T10:57:07.987+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dog.py
+[2024-04-30T10:57:07.995+0000] {processor.py:840} INFO - DAG(s) 'dog' retrieved from /opt/airflow/dags/dog.py
+[2024-04-30T10:57:08.012+0000] {logging_mixin.py:188} INFO - [2024-04-30T10:57:08.012+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-30T10:57:08.031+0000] {logging_mixin.py:188} INFO - [2024-04-30T10:57:08.031+0000] {dag.py:3954} INFO - Setting next_dagrun for dog to 2024-04-30 00:00:00+00:00, run_after=2024-05-01 00:00:00+00:00
+[2024-04-30T10:57:08.050+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dog.py took 0.069 seconds
+[2024-04-30T10:57:38.188+0000] {processor.py:161} INFO - Started process (PID=42116) to work on /opt/airflow/dags/dog.py
+[2024-04-30T10:57:38.189+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dog.py for tasks to queue
+[2024-04-30T10:57:38.190+0000] {logging_mixin.py:188} INFO - [2024-04-30T10:57:38.189+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dog.py
+[2024-04-30T10:57:38.196+0000] {processor.py:840} INFO - DAG(s) 'dog' retrieved from /opt/airflow/dags/dog.py
+[2024-04-30T10:57:38.212+0000] {logging_mixin.py:188} INFO - [2024-04-30T10:57:38.212+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-30T10:57:38.233+0000] {logging_mixin.py:188} INFO - [2024-04-30T10:57:38.233+0000] {dag.py:3954} INFO - Setting next_dagrun for dog to 2024-04-30 00:00:00+00:00, run_after=2024-05-01 00:00:00+00:00
+[2024-04-30T10:57:38.254+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dog.py took 0.071 seconds
