@@ -1630,3 +1630,10 @@ SyntaxError: expected argument value expression
 [2024-04-30T10:55:55.641+0000] {logging_mixin.py:188} INFO - [2024-04-30T10:55:55.641+0000] {dag.py:3096} INFO - Sync 1 DAGs
 [2024-04-30T10:55:55.658+0000] {logging_mixin.py:188} INFO - [2024-04-30T10:55:55.658+0000] {dag.py:3954} INFO - Setting next_dagrun for my_first_dag to None, run_after=None
 [2024-04-30T10:55:55.682+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/my_first_dag.py took 0.075 seconds
+[2024-04-30T10:56:26.314+0000] {processor.py:161} INFO - Started process (PID=41476) to work on /opt/airflow/dags/my_first_dag.py
+[2024-04-30T10:56:26.315+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/my_first_dag.py for tasks to queue
+[2024-04-30T10:56:26.315+0000] {logging_mixin.py:188} INFO - [2024-04-30T10:56:26.315+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/my_first_dag.py
+[2024-04-30T10:56:26.320+0000] {processor.py:840} INFO - DAG(s) 'my_first_dag' retrieved from /opt/airflow/dags/my_first_dag.py
+[2024-04-30T10:56:26.342+0000] {logging_mixin.py:188} INFO - [2024-04-30T10:56:26.342+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-30T10:56:26.358+0000] {logging_mixin.py:188} INFO - [2024-04-30T10:56:26.358+0000] {dag.py:3954} INFO - Setting next_dagrun for my_first_dag to None, run_after=None
+[2024-04-30T10:56:26.389+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/my_first_dag.py took 0.081 seconds
