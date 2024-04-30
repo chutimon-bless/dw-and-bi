@@ -25,3 +25,14 @@ dbt init
       threads: 1
       type: postgres
       user: postgres
+
+### check connection with PostgreSQL
+```
+cd DS525
+dbt debug
+```
+
+### run dbt
+```
+dbt run
+```
