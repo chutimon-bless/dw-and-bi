@@ -5,3 +5,23 @@ This project utilizes dbt to perform data transformation and uses PostgreSQL as 
 python -m venv ENV
 source ENV/bin/activate
 ```
+
+### install essential libraries
+```python
+pip install dbt-core dbt-postgres
+```
+
+### initialize the project
+```
+dbt init
+```
+
+### set up your profile 
+      dbname: postgres
+      host: localhost
+      pass: postgres
+      port: 5432
+      schema: public
+      threads: 1
+      type: postgres
+      user: postgres
